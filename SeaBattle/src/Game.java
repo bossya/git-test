@@ -27,11 +27,11 @@ public class Game {
             automaticShipsPlacement(computerField);
             System.out.println("Корабли " + Messages.getUserName());
             userField.printField();
-            System.out.println("Корабли копьютера");
+            System.out.println("Корабли копьютераааа");
             computerField.spyField();
 
             while (true) {
-                System.out.print("Введите координату для выстрела в раскладке RU. Например Б4 :");
+                System.out.print("Введите координату для выстрела в раскладке RU. Например Б6 :");
                 Scanner input = new Scanner(System.in);
                 String gamerChoice = input.nextLine();
                 if (gamerChoice.equals("exit") ) {
