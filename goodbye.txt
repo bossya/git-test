@@ -1,2 +1,2 @@
-print("goodvye")
-print("asssssssssaasa")
+print("goodvye;")
+print("asssssssssaasa;")
