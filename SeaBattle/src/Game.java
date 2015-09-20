@@ -31,7 +31,7 @@ public class Game {
             computerField.spyField();
 
             while (true) {
-                System.out.print("Введите координату для выстрела в раскладке RU. Например Б2 :");
+                System.out.print("Введите координату для выстрела в раскладке RU. Например Б4 :");
                 Scanner input = new Scanner(System.in);
                 String gamerChoice = input.nextLine();
                 if (gamerChoice.equals("exit") ) {
@@ -42,7 +42,7 @@ public class Game {
                 computerField.shot(x, y);
             }
         } else {
-            System.out.print("Неработает");
+            System.out.print("Отключенна");
         }
     }
 }
